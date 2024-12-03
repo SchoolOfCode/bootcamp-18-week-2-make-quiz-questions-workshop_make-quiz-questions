@@ -2,11 +2,12 @@
 
 const questions = [
   {
-    question_text: "what is my name?",
+    question_text:
+      "Which of the following is NOT a primitive data type in JavaScript?",
     question_type: "multiple_choice",
-    options: ["Jeff", "James", "Jimmy", "Number"],
+    options: ["Boolean", "String", "Array", "Number"],
     correct_option: 2,
-    correct_explanation: "Awahhhh",
+    correct_explanation: "Array is not a primitive data type; it is an object.",
   },
 ];
 
